@@ -4,10 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css" type="text/css">
+
     <title>Walter Van Hooser's Portfolio</title>
 </head>
 <body>
-    
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navStyle">
+        <a class="navbar-brand" href="#">LINK TO SOMETHING</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="listStyle">
+            <li class="nav-item active">
+              <a class="nav-link" id="text-color" href="#">| Home |<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="text-color" href="#">| My Projects |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="text-color" href="#">| About Me |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="text-color" href="#">| Contact Me |</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid" id="jumboStyle">
+  <div class="container">
+    <h1 class="display-4">Walter Van Hooser</h1>
+    <p class="lead">Here is a one line description me.</p>
+  </div>
+</div>
+<!--Projects-->
+<div class="container" id="projectsStyle">
+  <div class="row">
+    <div class="col-4">
+      <a href="https://codepen.io/dontdoitwalter/pen/XPwqVb"><img src="assets/creature.PNG" id="creatureThumb"></a>
+    </div>
+    <div class="col-4">
+      <a href="https://dontdoitwalter.github.io/tutorial-webpage/"><img src="assets/advertisement-advertising-bright-439857.jpg" id="neonSign"></a>
+    </div>
+    <div class="col-4">
+      <a href=""><img src="assets/neon bottles.jpg" id="bottles"></a>
+    </div>
+  </div>
+</div>  
+<!--About Me-->
+<div class="containter" id="aboutMeContainer">
+  <div class="row">
+    <div class="col-12">
+      <p id="aboutMe">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, magni dolor. Neque odio animi nesciunt fuga assumenda blanditiis modi cum aspernatur inventore minima fugit, eius magni, officiis nostrum commodi delectus!</p>
+    </div>
+  </div>
+</div>
+<!--Contact Me-->
+<section id="about"></section>
+  <section id="portfolio"></section>
+  <section id="contact">
+   <div class="container">
+     <h2 class="text-center text-uppercase">Contact Me</h2>
+     <div class="row">
+       <form action="https://formspree.io/emailwaltervanhooser@gmail.com" method="POST">
+         <div class="control-group">
+           <div class="form-group">
+             <label>Name</label>
+             <input
+               type="text"
+               class="form-control"
+               placeholder="Your Name"
+               id="name"
+               required
+               data-validation-required-message="Please enter your name"
+               name="name"
+               >
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="control-group">
+           <div class="form-group">
+             <label>Email Address</label>
+             <input
+               type="email"
+               class="form-control"
+               placeholder="Your Email"
+               id="email"
+               required
+               data-validation-required-message="Please enter your email"
+               name="_replyto"
+             >
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="control-group">
+           <div class="form-group">
+             <textarea
+               class="form-control"
+               rows="7"
+               placeholder="Your Message"
+               id="message"
+               required
+               data-validation-required-message="Please leave a message"
+               name="message"
+             ></textarea>
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="text-center">
+           <div id="success"></div>
+           <button type="submit" class="btn btn-lg btn-black">
+             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+             Send Message
+           </button>
+         </div>
+       </form>
+     </div>
+   </div>
+ </section>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

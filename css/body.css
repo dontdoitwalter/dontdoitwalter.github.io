@@ -1,3 +1,13 @@
 body{
-    background-color: var(--blue-green)
-}   
+    background-color: #FFA2A7;
+    position: relative;
+    margin:auto;
+} 
+
+body,html{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+

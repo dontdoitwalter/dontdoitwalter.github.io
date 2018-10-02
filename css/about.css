@@ -1,0 +1,11 @@
+#aboutMe{
+    font-size:28px;
+    color: darkslategray;
+    margin-left:40px;
+    margin-right:20px;
+    margin-top:50px;
+}
+
+#aboutMeContainer{
+width:100% !important;
+}
