@@ -5,7 +5,7 @@
     height:100px;
     font-size:40px;
     z-index:1;
-    position: relative;
+    position: fixed;
     margin:auto;
 }
 
