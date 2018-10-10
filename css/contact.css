@@ -9,8 +9,8 @@ width: 100%;
 }
 
 #contactMe{
-padding-top:.5em;
-padding-bottom:.5em;
+padding-top:3em;
+padding-bottom:1.5em;
 font-family: var(--font-one);
 font-size: 50px;
 }
