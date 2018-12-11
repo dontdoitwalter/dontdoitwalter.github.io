@@ -13,49 +13,52 @@
 <body>
     <!-- navbar-->
     <nav class="navbar navbar-expand-lg" id="navStyle">
-        <a class="navbar-brand" href="#">Walter Van Hooser</a>
+        <text class="navbar-brand">Walter Van Hooser</text>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" id="listStyle">
             <li class="nav-item active">
-              <a class="nav-link" id="text-color" href="https://linkedin.com/in/walter-van-hooser-81a2a116a/"><img id="logo" src="./assets/linkedin.png"></a>
+              <a class="nav-link" id="text-color" target="new" href="https://linkedin.com/in/walter-van-hooser-81a2a116a/"><img title="LinkedIn" id="logo" src="./assets/linkedinlogo.png"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="text-color" href="https://www.instagram.com/trustythursday/"><img id="logo" src="./assets/instagram.png"></a>
+              <a class="nav-link" id="text-color" target="new" href="https://www.instagram.com/trustythursday/"><img title="Instagram" id="logo" src="./assets/instagram.png"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="text-color" href="https://github.com/dontdoitwalter"><img id="logo" src="./assets/github.png"></a>
+              <a class="nav-link" id="text-color" target="new" href="https://github.com/dontdoitwalter"><img title="GitHub" id="logo" src="./assets/Octocat/Octocat.png"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="text-color" href="https://docs.google.com/document/d/1t4eC3scKYvg_zRcyD9pPn8Lm-r2TH7qgoWVe93R5JwQ/edit?usp=sharing"><img id="logo" src="./assets/resumeIcon.png"></a>
+              <a class="nav-link" id="text-color" target="new" href="https://docs.google.com/document/d/1t4eC3scKYvg_zRcyD9pPn8Lm-r2TH7qgoWVe93R5JwQ/edit?usp=sharing"><img title="Resume" id="logo" src="./assets/resumeIcon.png"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="text-color" href="https://codepen.io/dontdoitwalter/"><img id="logo" src="./assets/codepen.png"></a>
+              <a class="nav-link" id="text-color" target="new" href="https://codepen.io/dontdoitwalter/"><img title="CodePen" id="logo" src="./assets/codepen.png"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="text-color" target="new"><img title="Contact Me" data-toggle="modal" data-target="#myModal" type="click" id="logo" class="contactMeToggle" src="assets/tele2.png"></a>    
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="text-color" target="new"><img title="About Me" data-toggle="modal" data-target="#myModal" type="click" id="logo" class="contactMeToggle" src="assets/man.png"></a>    
             </li>
           </ul>
         </div>
       </nav>
-<!-- Jumbotron -->
-<div class="jumbotron jumbotron-fluid" id="jumboStyle">
-  <div class="container">
-    <h1 class="display-4">Walter Van Hooser</h1>
-    <a id="about"></a>
-    <p class="lead">Junior JavaScript Developer</p>
-  </div>
-</div>
-<!--About Me-->   
-<div class="containter" id="aboutMeContainer">
-  <div class="col-12">
-    <h2 class="aboutMe">| About Me |</h2>
-    <p id="aboutMe">Hey there! My name is Walter and this is my portfolio. I am an Indiana transplant, originally from the Pacific Northwest.
-                    Before becoming a Junior Developer, I wore many hats.
-                    My working career began at an athletic club working the front desk, where I transitioned into a leadership role.
+    </div>
+    <!--About Me-->   
+    <div id="header">
+      <h1>Walter Van Hooser</h1>
+      <p>Junior JavaScript Developer</p>
+    </div>
+    <div class="containter" id="aboutMeContainer">
+      <div class="col-12">
+        <h2 class="aboutMe">| About Me |</h2>
+        <p id="aboutMe">Hey there! My name is Walter and this is my portfolio. I am an Indiana transplant, originally from the Pacific Northwest.
+          Before becoming a Junior Developer, I wore many hats.
+          My working career began at an athletic club working the front desk, where I transitioned into a leadership role.
                     After that I was a sales representative! I had a lot of fun with that job getting to work with cellular devices 
-                    and tablets as well as help customers troubleshoot issues they were having. I made a career path change 
+                    and tablets as well as helping customers troubleshoot issues they were having. I made a career path change 
                     after that and dove into the Security Industry, where I worked as a supervisor and an armed officer, and eventually 
-                    took a step up to Correctional Officer, here in Indiana! I am a gamer, and love the tech industry<a id="projects"></a>  as well as being 
+                    took a step up to Correctional Officer, here in Indiana! I am a gamer, and love the tech industry as well as being 
                     able to share the knowledge I have with the people around me. 
                     </p>
   </div>
@@ -76,80 +79,80 @@
   </div>
 </div>  
 
-
-<!--Contact Me-->
-<section id="about"></section>
-
-
-
-  <section id="portfolio"></section>
-
-
-
-  <section id="contact">
-   <div class="container">
-     <h2 class="text-center text-uppercase" id="contactMe">| Contact Me |</h2>
-     <div class="row">
-       <form action="https://formspree.io/emailwaltervanhooser@gmail.com" method="POST">
-         <div class="control-group">
-           <div class="form-group">
-             <label>Name</label>
-             <input
-               type="text"
-               class="form-control"
-               placeholder="Your Name"
-               id="name"
-               required
-               data-validation-required-message="Please enter your name"
-               name="name"
-               >
-             <p class="help-block text-danger"></p>
-           </div>
-         </div>
-         <div class="control-group">
-           <div class="form-group">
-             <label>Email Address</label>
-             <input
-               type="email"
-               class="form-control"
-               placeholder="Your Email"
-               id="email"
-               required
-               data-validation-required-message="Please enter your email"
-               name="_replyto"
-             >
-             <p class="help-block text-danger"></p>
-           </div>
-         </div>
-         <div class="control-group">
-           <div class="form-group">
-             <textarea
-               class="form-control"
-               rows="7"
-               placeholder="Your Message"
-               id="message"
-               required
-               data-validation-required-message="Please leave a message"
-               name="message"
-             ></textarea>
-             <p class="help-block text-danger"></p>
-           </div>
-         </div>
-         <div class="text-center">
-           <div id="success"></div>
-           <button type="submit" class="btn btn-lg btn-black">
-             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-             Send Message
-           </button>
-         </div>
-       </form>
-     </div>
-   </div>
- </section>
-
-
-
-
+<div class="container">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Contact Me</h4>
+          </div>
+          <div class="modal-body">
+              <section id="contact">
+                  <div class="container">
+                    <div class="row">
+                      <form action="https://formspree.io/emailwaltervanhooser@gmail.com" method="POST">
+                        <div class="control-group">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Your Name"
+                              id="name"
+                              required
+                              data-validation-required-message="Please enter your name"
+                              name="name"
+                              >
+                            <p class="help-block text-danger"></p>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Your Email"
+                              id="email"
+                              required
+                              data-validation-required-message="Please enter your email"
+                              name="_replyto"
+                            >
+                            <p class="help-block text-danger"></p>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <div class="form-group">
+                            <textarea
+                              class="form-control"
+                              rows="7"
+                              placeholder="Your Message"
+                              id="message"
+                              required
+                              data-validation-required-message="Please leave a message"
+                              name="message"
+                            ></textarea>
+                            <p class="help-block text-danger"></p>
+                          </div>
+                        </div>
+                        <div class="text-center">
+                          <div id="success"></div>
+                          <button type="submit" class="btn btn-lg btn-black">
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                            Send Message
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </section>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

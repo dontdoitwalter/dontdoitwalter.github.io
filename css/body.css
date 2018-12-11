@@ -1,4 +1,7 @@
-body,html{
-    width:100%;
-    margin:0;
+html, body{
+    background-image: url("../assets/raining.gif");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center bottom;
 }

@@ -1,12 +1,12 @@
 #projectsStyle{
     position:relative;
     margin:auto;
-    margin-top:25px;
+    margin-top:.25em;
+    margin-bottom:4em;
 }
 .projectHeader{
-padding-top:1.5em;
-padding-bottom:1.5em;
 font-size: 50px;
+color:white;
 }
 #creatureThumb{
     width:300px;
