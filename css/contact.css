@@ -1,16 +1,16 @@
 h2{
 text-align:center;
 }
-
 form{
 text-align:center;
 margin: auto;
 width: 100%;
 }
-
 #contactMe{
-padding-top:3em;
-padding-bottom:1.5em;
-font-family: var(--font-one);
 font-size: 50px;
+margin-top:2em;
+margin-bottom:.5em;
+}
+#contact{
+    margin-bottom:2.5em;
 }

@@ -1,18 +1,14 @@
 #aboutMe{
     font-size:28px;
-    color: darkslategray;
     margin-left:40px;
     margin-right:20px;
     margin-top:50px;
 }
-
 #aboutMeContainer{
 width:100% !important;
 }
-
 .aboutMe{
     padding-top:.5em;
     padding-bottom:.5em;
-    font-family: var(--font-one);
     font-size: 50px;
     }

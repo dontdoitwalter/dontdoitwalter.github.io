@@ -3,31 +3,26 @@
     margin:auto;
     margin-top:25px;
 }
- .projectHeader{
+.projectHeader{
 padding-top:1.5em;
 padding-bottom:1.5em;
-font-family: var(--font-one);
 font-size: 50px;
 }
-
 #creatureThumb{
     width:300px;
     height:300px;
     border: 3px solid white;
     border-radius: 50%
 }
-
 #popNovel{
     width:300px;
     height:300px;
     border:3px solid white;
     border-radius:50%;
 }
-
 #bottles{
     width:300px;
     height:300px;
     border: 3px solid white;
     border-radius: 50%;
 }
-
