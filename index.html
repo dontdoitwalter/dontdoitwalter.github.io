@@ -13,9 +13,10 @@
 <body>
     <!-- navbar-->
     <nav class="navbar navbar-expand-lg" id="navStyle">
+        <!-- <img src="./assets/WVH/WVH.svg" class="navbar-brand" id="brand"> -->
         <text class="navbar-brand">Walter Van Hooser</text>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button style="color:black" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" ></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav" id="listStyle">
@@ -35,53 +36,79 @@
               <a class="nav-link" id="text-color" target="new" href="https://codepen.io/dontdoitwalter/"><img title="CodePen" id="logo" src="./assets/codepen.png"></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="text-color" target="new"><img title="Contact Me" data-toggle="modal" data-target="#myModal" type="click" id="logo" class="contactMeToggle" src="assets/tele2.png"></a>    
+                <a class="nav-link" id="text-color" target="new"><img title="Contact Me" data-toggle="modal" data-target="#modalOne" type="click" id="logo" class="contactMeToggle" src="assets/tele2.png"></a>    
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="text-color" target="new"><img title="About Me" data-toggle="modal" data-target="#myModal" type="click" id="logo" class="contactMeToggle" src="assets/man.png"></a>    
+                <a class="nav-link" id="text-color" target="new"><img title="About Me" data-toggle="modal" data-target="#modalTwo" type="click" id="logo" class="contactMeToggle" src="assets/man.png"></a>    
             </li>
           </ul>
         </div>
       </nav>
     </div>
-    <!--About Me-->   
+  <!--About Me-->   
+    <div class="container">
+      <div class="modal fade" id="modalTwo" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">About Me</h4>
+            </div>
+            <div class="modal-body">
+              <section id="contact">
+                    <p id="aboutMe">
+                      Hey there! My name is Walter and this is my portfolio. I am an Indiana transplant, originally from the Pacific Northwest.
+                      Before becoming a Junior Developer, I wore many hats.
+                      My working career began at an athletic club working the front desk, where I transitioned into a leadership role.
+                      After that I was a sales representative! I had a lot of fun with that job getting to work with cellular devices 
+                      and tablets as well as helping customers troubleshoot issues they were having. I made a career path change 
+                      after that and dove into the Security Industry, where I worked as a supervisor and an armed officer, and eventually 
+                      took a step up to Correctional Officer, here in Indiana! I am a gamer, and love the tech industry as well as being 
+                      able to share the knowledge I have with the people around me. 
+                        </p>
+                </section>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="header">
       <h1>Walter Van Hooser</h1>
       <p>Junior JavaScript Developer</p>
     </div>
-    <div class="containter" id="aboutMeContainer">
-      <div class="col-12">
-        <h2 class="aboutMe">| About Me |</h2>
-        <p id="aboutMe">Hey there! My name is Walter and this is my portfolio. I am an Indiana transplant, originally from the Pacific Northwest.
-          Before becoming a Junior Developer, I wore many hats.
-          My working career began at an athletic club working the front desk, where I transitioned into a leadership role.
-                    After that I was a sales representative! I had a lot of fun with that job getting to work with cellular devices 
-                    and tablets as well as helping customers troubleshoot issues they were having. I made a career path change 
-                    after that and dove into the Security Industry, where I worked as a supervisor and an armed officer, and eventually 
-                    took a step up to Correctional Officer, here in Indiana! I am a gamer, and love the tech industry as well as being 
-                    able to share the knowledge I have with the people around me. 
-                    </p>
-  </div>
-</div>
 <!--Projects-->
-<h2 class="projectHeader">| Projects |</h2>
-<div class="container" id="projectsStyle">
-  <div class="row">
-    <div class="col-4">
-      <a href="https://codepen.io/dontdoitwalter/pen/XPwqVb" target="blank" title="CSS Project"><img src="assets/creature.PNG" id="creatureThumb"></a>
+  <div id="projectsStyle">
+    <div class="card">
+        <a href=""><img src="./assets/gardenstore.png" alt="Garden Store"id="cardthumb"></a>
+          <h2>24 Hour Project</h2>
+          <p>This was the first project we did with our groups and our first real project with AngularJS. We were put in our groups and given 24 hours to create a store front in Angular athat fit the clients needs.</p>
+      </div>  
+    <div class="card">
+        <a href="https://popnovelclient.herokuapp.com/"><img src="./assets/popnovel.png" alt="PopNovel"id="cardthumb"></a>
+          <h2>PopNovel</h2>
+          <p>Major project we completed to successfully complete the second phase of bootcamp. I created an original application using ReactJS with NodeJS back-end.</p>
+      </div>
+      <div class="card">
+          <a href="https://blizz-api-2a4df.firebaseapp.com/"><img src="./assets/diablo3.jpg" alt="Diablo3"id="cardthumb"></a>
+        <h2>Blizzard API</h2>
+        <p>Major project we completed to complete the first phase of bootcamp. I created a front end application that pulled from Blizzard's API, using Vanilla JavaScript, HTML and CSS.</p>
+      </div>  
+      <div class="card">
+          <a href="https://dontdoitwalter.github.io/tutorial-webpage/"><img src="./assets/video-player.png" alt="Tutorial"id="cardthumb"></a>
+            <h2>Tutorial WebPage</h2>
+            <p>First front end web page we made. Using HTML and CSS we created a tutorial webpage to explain some of JavaScript's basics.</p>
+        </div>  
+      <div class="card">
+          <a href="https://codepen.io/dontdoitwalter/pen/XPwqVb"><img src="./assets/creature.PNG" alt="CodePen"id="cardthumb"></a>
+          <h2>CodePen Project</h2>
+          <p>This was a project we did during the first week of class. Exclusively using CSS we made a creature.</p>
+      </div>
     </div>
-    <div class="col-4">
-      <a href="https://popnovelclient.herokuapp.com" target="blank" title="Blue Badge Project"><img src="assets/popnovel.png" id="popNovel"></a>
-    </div>
-    <div class="col-4">
-      <a href="https://blizz-api-2a4df.firebaseapp.com/"><img src="assets/neon bottles.jpg" id="bottles" target="blank" title="API Project"></a>
-    </div>
-  </div>
-</div>  
-
+<!-- Modal -->
 <div class="container">
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal fade" id="modalOne" role="dialog">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
