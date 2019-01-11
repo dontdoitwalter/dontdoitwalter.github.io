@@ -11,9 +11,12 @@ font-size: 50px;
 color:white;
 }
 .card {
+    padding-left:.25em;
+    padding-right:.25em;
     border-radius: 5px;
-    height:auto;
+    height:31.5em;
     width:20em;
+    margin-bottom:1em;
   }
   .card:hover {
     opacity: 0.5;
@@ -25,6 +28,7 @@ color:white;
     border-radius: 5px 5px 0 0;
   }
   .cardContainer{
+      height:25em;
       margin:auto;
   }
   #cardthumb{
@@ -32,4 +36,7 @@ color:white;
       margin-left:12%;
       height:15em;
       width:15em;
+  }
+  h4{
+    margin:auto;
   }

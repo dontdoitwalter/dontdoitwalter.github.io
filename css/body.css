@@ -5,7 +5,7 @@ html, body{
     background-size:cover;
     background-position:center bottom;
 }
-h1, h2{
+h1, h2, h4{
     font-family: 'Montserrat', sans-serif;
 }
 p{
