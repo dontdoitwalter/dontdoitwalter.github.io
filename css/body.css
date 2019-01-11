@@ -5,9 +5,11 @@ html, body{
     background-size:cover;
     background-position:center bottom;
 }
-h1, h2, h4{
+h1, h2, h4, h6{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 p{
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
