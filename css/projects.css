@@ -16,10 +16,7 @@ color:white;
     border-radius: 5px;
     height:33.5em;
     width:20em;
-    margin-bottom:1em;
-  }
-  .card:hover {
-    opacity: 0.5;
+    margin:1em;
   }
   #container {
     background-color:lightgray;
@@ -37,3 +34,6 @@ color:white;
       height:15em;
       width:15em;
   }
+#selfie{
+  max-width: 35%;
+}
